@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('Hello from Node.js server!');
+  res.send('Hello from Node.js testing server!');
 });
 
 app.get('/status', (req, res) => {
